@@ -70,4 +70,36 @@ View Expenses → Shows all saved data
 Set Budget → Alerts if exceeded
 
 ---
+---
 
+## Setup and Installation
+
+### Requirements
+
+- Python 3.x
+- Command Prompt / Terminal
+- No external Python packages are required.
+
+### Steps to Run
+
+1. Download or clone this repository.
+2. Open the project folder in Command Prompt or Terminal.
+3. Check that Python is installed:
+
+```bash
+python --version
+```
+
+4. Run the program:
+
+```bash
+python expense_tracker.py
+```
+
+5. Select an option from the menu and enter the required details.
+
+## Data Storage
+The program automatically creates a data folder and stores expense and budget information in JSON files.
+
+## Export
+Selecting the Export to CSV option creates an export.csv file containing the saved expense records.
